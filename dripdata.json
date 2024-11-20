@@ -1,0 +1,33 @@
+{
+    "moistureData": {
+      "sensor_1": {
+        "timestamp": 1630212345,
+        "moistureLevel": 45
+      },
+      "sensor_2": {
+        "timestamp": 1630212370,
+        "moistureLevel": 50
+      }
+      
+    },
+    "wateringSchedule": {
+      "dailySchedule": {
+        "startTime": "08:00",
+        "duration": 10 
+      },
+      "customSchedules": {
+        "schedule_1": {
+          "date": "2024-11-14",
+          "time": "14:30",
+          "duration": 15
+        },
+        "schedule_2": {
+          "date": "2024-11-15",
+          "time": "09:00",
+          "duration": 10
+        }
+        
+      }
+    }
+  }
+  
